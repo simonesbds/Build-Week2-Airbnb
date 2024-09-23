@@ -1,0 +1,19 @@
+#account{
+    border-radius: 50%;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: space-between;
+}
+
+#ricerca {
+    margin-top: 15px;
+    background-color: red;
+    padding: 15px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+header{
+    text-align: center;
+}
