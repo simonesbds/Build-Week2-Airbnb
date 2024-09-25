@@ -89,16 +89,9 @@ article li p {
   font-weight: 300;
 }
 
-.hidden-carousel {
-  display: none;
-}
-
 @media(max-width:768px){
   .gallery-items {
    display: none;
-  }
-  .hidden-carousel {
-    display: inline-block;
   }
   .specs {
     display: none;
