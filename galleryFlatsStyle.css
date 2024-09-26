@@ -4,6 +4,10 @@
   background-color: #F8F9FA;
 }
 
+.navbar-expand-lg .navbar-collapse {
+  justify-content: space-between;
+}
+
 #ricerca {
   box-shadow: 0px 0px 1px 1px #ebebeb;
   margin-top: 0px;
@@ -84,16 +88,37 @@ article li{
   list-style-type: none;
 }
 
+::marker {
+  font-size: 3em;
+}
+
+article li:first-child {
+  list-style-image: url(assets/Icons/home-outline.svg);
+}
+
+article li:nth-child(2) {
+  list-style-image: url(assets/Icons/sparkles-outline.svg);
+}
+
+article li:nth-child(3) {
+  list-style-image: url(assets/Icons/location-outline.svg);
+}
+
+article li:nth-child(4) {
+  list-style-image: url(assets/Icons/calendar-outline.svg);
+}
+
+article li:last-child {
+  list-style-image: url(assets/Icons/book-outline.svg);
+}
+
 article li p {
   color: darkgray;
   font-weight: 300;
 }
 
-@media(max-width:768px){
-  .gallery-items {
-   display: none;
-  }
-  .specs {
-    display: none;
-  }
+.list-card {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
 }
