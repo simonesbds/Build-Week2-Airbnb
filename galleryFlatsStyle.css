@@ -122,3 +122,25 @@ article li p {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
+
+@media (max-width: 742px) {
+.specs {
+  display: none;
+}
+
+  .gallery-items {
+    display: none;
+  }
+
+  .card {
+    display: none;
+  }
+
+  #galleryCarousel {
+    display: block;
+  }
+
+  .carousel-inner {
+    display: block;
+  }
+}
