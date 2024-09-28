@@ -26,7 +26,6 @@ img {
   width: 90%;
   margin: auto;
   padding: 40px;
-  border: solid 1px red;
 }
 
 .gallery-items {
@@ -119,6 +118,7 @@ article li:last-child {
 article li p {
   color: darkgray;
   font-weight: 300;
+  margin: auto;
 }
 
 .list-card {
@@ -149,6 +149,11 @@ article li p {
   font-size: 10px;
 }
 
+.form-container {
+  max-width: 900px;
+  margin-left: 0;
+}
+
 @media (max-width: 742px) {
 .specs {
   display: none;
@@ -163,3 +168,4 @@ article li p {
     display: none;
   }
 }
+
